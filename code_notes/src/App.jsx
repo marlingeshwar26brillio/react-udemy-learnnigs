@@ -1,0 +1,9 @@
+import React from 'react'
+
+function App() {
+  return (
+    <div className="w-full h-screen bg-red-500">aaa</div>
+  )
+}
+
+export default App
