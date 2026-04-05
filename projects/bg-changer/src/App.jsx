@@ -1,21 +1,15 @@
-function App() {
+import { useState } from "react"
 
-  function dis() {
-    console.log("Faaaaaaaa")
-  }
+function App() {
+  const [rang, setRang] = useState("black")
+  
 
   return (
-    <>
-      <div className="main-container">
-        <h1>Hello soni kuddi hai yaraaa</h1>
-        <div className="btns">
-          <button onClick={dis}>Red</button>
-          <button>Yellow</button>
-          <button>Green</button>
-          <button>Purple</button>
-        </div>
-      </div>
-    </>
+    <div className="w-full h-screen flex flex-col items-center justify-center " 
+    style={{backgroundColor : "black"}}
+    >
+     <button>aaaaaaaaa</button>
+    </div>
   )
 }
 
