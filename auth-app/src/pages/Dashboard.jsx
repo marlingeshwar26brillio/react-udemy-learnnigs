@@ -1,8 +1,9 @@
-import React from 'react'
-
-const Dashboard = () => {
+function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div style={{textAlign:"center", marginTop:"100px"}}>
+      <h1>Dashboard </h1>
+      <p>You are logged in!</p>
+    </div>
   )
 }
 
